@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+#about {
+  background-image: url("../assets/images/latar-about.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+}
+
+.about-box {
+  width: 620px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgba(255, 240, 245, 0.9);
+  padding: 30px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.about-box h2 {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: #6b4150;
+}
+
+.about-box p {
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.7;
+  color: #6b4150;
+}
+
+.about-box .closing {
+  text-align: right;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #c75b7a;
+}
